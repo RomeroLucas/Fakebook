@@ -1,22 +1,22 @@
 {
   "files": {
-    "static/js/0.1f33cd67.chunk.js": "/FakeBook/static/js/0.1f33cd67.chunk.js",
-    "static/js/0.1f33cd67.chunk.js.map": "/FakeBook/static/js/0.1f33cd67.chunk.js.map",
-    "main.css": "/FakeBook/static/css/main.d1550ff9.chunk.css",
-    "main.js": "/FakeBook/static/js/main.5c7322cc.chunk.js",
-    "main.js.map": "/FakeBook/static/js/main.5c7322cc.chunk.js.map",
-    "runtime-main.js": "/FakeBook/static/js/runtime-main.dc130328.js",
-    "runtime-main.js.map": "/FakeBook/static/js/runtime-main.dc130328.js.map",
-    "static/js/3.5cee2cc9.chunk.js": "/FakeBook/static/js/3.5cee2cc9.chunk.js",
-    "static/js/3.5cee2cc9.chunk.js.map": "/FakeBook/static/js/3.5cee2cc9.chunk.js.map",
-    "static/js/4.5d139c8f.chunk.js": "/FakeBook/static/js/4.5d139c8f.chunk.js",
-    "static/js/4.5d139c8f.chunk.js.map": "/FakeBook/static/js/4.5d139c8f.chunk.js.map",
-    "index.html": "/FakeBook/index.html",
-    "static/css/main.d1550ff9.chunk.css.map": "/FakeBook/static/css/main.d1550ff9.chunk.css.map",
-    "static/js/3.5cee2cc9.chunk.js.LICENSE.txt": "/FakeBook/static/js/3.5cee2cc9.chunk.js.LICENSE.txt"
+    "static/js/0.1f33cd67.chunk.js": "/Fakebook/static/js/0.1f33cd67.chunk.js",
+    "static/js/0.1f33cd67.chunk.js.map": "/Fakebook/static/js/0.1f33cd67.chunk.js.map",
+    "main.css": "/Fakebook/static/css/main.d1550ff9.chunk.css",
+    "main.js": "/Fakebook/static/js/main.5c7322cc.chunk.js",
+    "main.js.map": "/Fakebook/static/js/main.5c7322cc.chunk.js.map",
+    "runtime-main.js": "/Fakebook/static/js/runtime-main.c6d6811d.js",
+    "runtime-main.js.map": "/Fakebook/static/js/runtime-main.c6d6811d.js.map",
+    "static/js/3.5cee2cc9.chunk.js": "/Fakebook/static/js/3.5cee2cc9.chunk.js",
+    "static/js/3.5cee2cc9.chunk.js.map": "/Fakebook/static/js/3.5cee2cc9.chunk.js.map",
+    "static/js/4.5d139c8f.chunk.js": "/Fakebook/static/js/4.5d139c8f.chunk.js",
+    "static/js/4.5d139c8f.chunk.js.map": "/Fakebook/static/js/4.5d139c8f.chunk.js.map",
+    "index.html": "/Fakebook/index.html",
+    "static/css/main.d1550ff9.chunk.css.map": "/Fakebook/static/css/main.d1550ff9.chunk.css.map",
+    "static/js/3.5cee2cc9.chunk.js.LICENSE.txt": "/Fakebook/static/js/3.5cee2cc9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc130328.js",
+    "static/js/runtime-main.c6d6811d.js",
     "static/js/3.5cee2cc9.chunk.js",
     "static/css/main.d1550ff9.chunk.css",
     "static/js/main.5c7322cc.chunk.js"
