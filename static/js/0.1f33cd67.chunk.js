@@ -1,0 +1,2 @@
+(this["webpackJsonprj8-imoveis"]=this["webpackJsonprj8-imoveis"]||[]).push([[0],{105:function(s,e,i){"use strict";i.r(e),i.d(e,"default",(function(){return a}));i(33);var n=i(1);function a(s){return Object(n.jsxs)("div",{className:s.estilo,children:[Object(n.jsx)("span",{className:"friendicon-image",children:s.dataAmigos.username.substr(0,1)}),Object(n.jsx)("p",{className:"friendicon-label",children:s.dataAmigos.username})]})}}}]);
+//# sourceMappingURL=0.1f33cd67.chunk.js.map

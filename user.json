@@ -1,0 +1,31 @@
+{
+    "usuario": {
+        "username": "Romero Lucas",
+        "email": "lucas@gmail.com",
+        "senha": "1234"
+    },
+    "amigos": [
+        {
+            "username": "ThalisOficial",
+            "email": "thalis@gmail.com"
+        },
+        {
+            "username": "Jennifer857",
+            "email": "jennifer857@gmail.com"
+        }
+    ],
+    "postagens": [
+        {
+            "username":"Romero Lucas",
+            "post": "Sejam bem vindos ao fakebook!"
+        },
+        {
+            "username":"Thalis Oficial",
+            "post": "Sou o primeiro perfil verificado do fakebook"
+        },
+        {
+            "username":"Jennifer857",
+            "post": "Quero verificado também!!!"
+        }
+    ]
+}
