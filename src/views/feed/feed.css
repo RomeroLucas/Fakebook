@@ -1,0 +1,17 @@
+.feed-container {
+    padding: 0;
+    padding-bottom: 5px;
+    background-color: #f2f2f2;
+}
+
+/* DESK VIEW */
+@media screen and (min-width: 600px) {
+    .feed-container {
+        min-width: 100%;
+        display: flex;
+
+    }
+    .desk-view-pubs {
+        width: 55%;
+    }
+}

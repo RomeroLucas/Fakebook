@@ -1,0 +1,57 @@
+.header-container {
+    background-color: var(--primary-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container span:first-child {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-container span {
+    color: #f1f1f1;
+    
+}
+
+.header-container div  {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 600px) {
+    .header-container span:first-child {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+
+
+/* CSS das notificações */
+.container-notification p {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 1px 1px 3px black;
+    color: #f1f1f1;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-none {
+    display: none;
+}

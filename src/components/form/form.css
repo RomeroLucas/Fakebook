@@ -1,0 +1,61 @@
+/* formularios da homepage */
+.container-form-homepage {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    padding: 15px 5px;
+    border-radius: 14px;
+}
+
+.container-form-homepage span {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+/* formulario de post do feed */
+.formpost-container {
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .formpost-container {
+        max-width: 100%;
+        max-height: 180px;
+        margin: 0;
+    }
+}
+
+
+/* formulario do motor de busca de usuarios */
+
+
+/* formulario de dados do usuario da pagina perfil */
+.container-perfil-form {
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container-perfil-form div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-perfil-form div:first-child span {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container-perfil-form div:first-child span:hover {
+    background-color: var(--secundary-color);
+    color: #f1f1f1;
+}

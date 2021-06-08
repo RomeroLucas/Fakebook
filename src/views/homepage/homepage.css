@@ -1,0 +1,39 @@
+.homepage-container {
+    padding: 1px;
+}
+
+.homepage-container p {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.homepage-container p:nth-child(1) {
+    margin: 26px auto 0px auto;
+    font-size: var(--font-l);
+    color: #4b4b4b;
+    font-weight: bolder;
+}
+
+.homepage-container p:nth-child(2) {
+    text-align: right;
+    font-size: var(--font-n);
+    color: #4b4b4b;
+}
+
+.homepage-container section {
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homepage-container .btn {
+    font-size: var(--font-xl);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+    .homepage-container {
+        margin: auto;
+    }
+}

@@ -1,0 +1,49 @@
+.menu-big-container {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    transition: 0.5s;
+}
+
+.menu-big-container aside:first-child {
+    width: 30%;
+    height: 100%;
+}
+
+.aside-menu {
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -1px 0px 3px black;
+    
+}
+
+.show-aside {
+    right: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .menu-big-container aside:first-child {
+        width: 75%;
+    }
+
+    .aside-menu {
+        width: 25%;
+    }
+
+    .aside-menu p {
+        height: 40px;
+        padding: 5px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .aside-menu p:hover {
+        background-color: var(--primary-color);
+        color: #fff;
+    }
+}

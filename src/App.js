@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+//import de LIBS
+import {Switch, Route} from 'react-router-dom'
 
+//import de COMPONENTES
+import Header from './components/header'
+import Main from './components/main'
+import Footer from './components/footer'
+import AsideMenu from './components/aside-menu'
+
+//import de VIEWS
+import Homepage from './views/homepage'
+import Feed from './views/feed'
+import Perfil from './views/perfil'
+import FriendPerfil from './views/friend'
+
+//render de toda a aplicação
 function App() {
+    
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header>
+
+      </Header>
+      <AsideMenu />
+      <Main>
+        <Switch>
+          <Route path='/perfil' component={Perfil} />
+          <Route path={`/feed`} component={Feed} />
+          <Route path={`/friend`} component={FriendPerfil} />
+          <Route path='/' component={Homepage} />
+        </Switch>
+      </Main>
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default App

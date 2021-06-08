@@ -1,0 +1,15 @@
+.main-container {
+    background-color: var(--alternative-color);
+    min-height: calc(100vh - 90px);
+    padding: 0;
+}
+
+/* DESK VIEW */
+@media screen and (min-width: 600px) {
+    .main-container {
+        display: flex;
+        min-width: 100%;
+    }
+
+
+}
