@@ -15,10 +15,12 @@ const user = require('./routes/user')
 app.use(user)
 const post = require('./routes/post')
 app.use(post)
+const friends = require('./routes/friends')
+app.use(friends)
 
 
 // função que inicia o servidor node
-const port = 4000
+const port = process.env.PORT || 4000
 app.listen(port, ()=> {
     console.log(`Servirdor rodando em: http://localhost:${port}`)
 })
