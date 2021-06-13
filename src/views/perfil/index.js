@@ -17,7 +17,7 @@ export default function Perfil() {
     useEffect(() => {
         axios.get(`${url}/login/email=${userReducer.email}/senha=${userReducer.senha}`)
         .then(response => dispatch({type: 'CARREGAR_USUARIO', payload: response.data[0]}))         
-    })
+    }, [])
 
     //reload das PUBLICAÇÕES
     useEffect(()=> {

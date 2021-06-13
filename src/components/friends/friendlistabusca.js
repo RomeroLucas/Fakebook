@@ -1,6 +1,6 @@
 //import de LIBS
 import {useState, useEffect, lazy, Suspense} from 'react'
-import {useSelector, useDispatch} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {useHistory} from 'react-router-dom'
 import axios from 'axios'
 

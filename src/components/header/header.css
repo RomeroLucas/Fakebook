@@ -26,6 +26,10 @@
     justify-content: space-around;
 }
 
+.header-container div span  {
+    cursor: pointer;
+}
+
 
 @media screen and (min-width: 600px) {
     .header-container span:first-child {

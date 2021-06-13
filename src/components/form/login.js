@@ -1,5 +1,5 @@
 //import de LIBS
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {useState} from 'react'
 import axios from 'axios'
 import {useHistory} from 'react-router-dom'
@@ -11,7 +11,6 @@ import './form.css'
 import {url} from '../../scripts'
 
 export default function FormLogin() {
-    let userReducer = useSelector(state => state.user)
     let dispatch = useDispatch()
     let history = useHistory()
 

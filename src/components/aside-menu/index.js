@@ -16,7 +16,7 @@ export default function AsideMenu() {
     let dispatch = useDispatch()
     let history = useHistory()
 
-    const menuAside = useSelector(state => state.controllerMenu.menuAside)
+    const menuAside = useSelector(state => state.controllers.menuAside)
     
     let handleclick = (actionType) => {
         dispatch({type: actionType})

@@ -1,7 +1,6 @@
 //import de LIBS
 import {useDispatch} from 'react-redux'
 import {useState, useEffect} from 'react'
-import {useHistory} from 'react-router-dom'
 import axios from 'axios'
 
 //import de ICONS
@@ -33,7 +32,7 @@ export default function FormCad() {
         'Content-Type': 'application/json',
         'Authorization': 'JWT fefege...'
     }
-    let history = useHistory()
+   
     let handlesubmit = (e) => {
         e.preventDefault()
         axios.post(`${url}/cadastro/usuario`, newuser, {headers: headers})

@@ -13,7 +13,6 @@ import {url} from '../../scripts'
 const FriendIcon = lazy(() => import('./friendicon'))
 
 export default function FriendList(props) {
-    let userReducer = useSelector(state => state.user)
     let listaAmigos = useSelector(state => state.friendlist)
     let dispatch = useDispatch()
 
