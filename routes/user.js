@@ -41,7 +41,7 @@ user.get(`/busca/:dados`, (req, res, next) => {
 })
 
 //rota para edição de usuario
-user.post(`/editar/userid=:id`, (req, res, next) => {
+user.put(`/editar/userid=:id`, (req, res, next) => {
     let dados = {
         id_user: req.params.id,
         username: req.body.username,
