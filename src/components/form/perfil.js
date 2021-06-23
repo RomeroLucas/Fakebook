@@ -51,7 +51,7 @@ export default function PerfilForm(props) {
         }
         //evento para enviar dados editados para o banco de dados
         if(type === 'CONFIRMAR') {
-            axios.post(`${url}/editar/userid=${userReducer.id_user}`, perfil, {headers: headers})
+            axios.put(`${url}/editar/userid=${userReducer.id_user}`, perfil, {headers: headers})
             .then(response => setStatus({status: 'disabled', btn: false}), alert('Dados alterados com sucesso!'))
         }
     }
