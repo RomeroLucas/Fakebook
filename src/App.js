@@ -45,6 +45,9 @@ function App() {
           <Route path={`/feed`} component={Feed} />
           <Route path={`/friend`} component={FriendPerfil} />
           <Route path='/' component={Homepage} />
+          <Route path='*'>
+            <p>Rota de testes</p>
+          </Route>
         </Switch>
       </Main>
       <Footer />
