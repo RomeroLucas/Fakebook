@@ -23,6 +23,7 @@ export default function AsideMenu() {
         if(actionType === 'LOGOUT') {
             dispatch({type: 'CLOSE-ASIDE'})
             history.push('/')
+            localStorage.removeItem('user')
         }
     }
     

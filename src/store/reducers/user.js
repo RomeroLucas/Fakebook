@@ -1,4 +1,4 @@
-const INITIAL_STATE = JSON.parse(localStorage.getItem('user'))
+const INITIAL_STATE = JSON.parse(localStorage.getItem('user')) || false
 
 export default function user(state = INITIAL_STATE, action) {
     switch (action.type) {
