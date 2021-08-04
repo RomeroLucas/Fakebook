@@ -3,22 +3,22 @@
     "static/js/0.1f33cd67.chunk.js": "/Fakebook/static/js/0.1f33cd67.chunk.js",
     "static/js/0.1f33cd67.chunk.js.map": "/Fakebook/static/js/0.1f33cd67.chunk.js.map",
     "main.css": "/Fakebook/static/css/main.a258586d.chunk.css",
-    "main.js": "/Fakebook/static/js/main.aafc2274.chunk.js",
-    "main.js.map": "/Fakebook/static/js/main.aafc2274.chunk.js.map",
+    "main.js": "/Fakebook/static/js/main.a2601abc.chunk.js",
+    "main.js.map": "/Fakebook/static/js/main.a2601abc.chunk.js.map",
     "runtime-main.js": "/Fakebook/static/js/runtime-main.c6d6811d.js",
     "runtime-main.js.map": "/Fakebook/static/js/runtime-main.c6d6811d.js.map",
-    "static/js/3.f7342763.chunk.js": "/Fakebook/static/js/3.f7342763.chunk.js",
-    "static/js/3.f7342763.chunk.js.map": "/Fakebook/static/js/3.f7342763.chunk.js.map",
+    "static/js/3.982f389b.chunk.js": "/Fakebook/static/js/3.982f389b.chunk.js",
+    "static/js/3.982f389b.chunk.js.map": "/Fakebook/static/js/3.982f389b.chunk.js.map",
     "static/js/4.5d139c8f.chunk.js": "/Fakebook/static/js/4.5d139c8f.chunk.js",
     "static/js/4.5d139c8f.chunk.js.map": "/Fakebook/static/js/4.5d139c8f.chunk.js.map",
     "index.html": "/Fakebook/index.html",
     "static/css/main.a258586d.chunk.css.map": "/Fakebook/static/css/main.a258586d.chunk.css.map",
-    "static/js/3.f7342763.chunk.js.LICENSE.txt": "/Fakebook/static/js/3.f7342763.chunk.js.LICENSE.txt"
+    "static/js/3.982f389b.chunk.js.LICENSE.txt": "/Fakebook/static/js/3.982f389b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c6d6811d.js",
-    "static/js/3.f7342763.chunk.js",
+    "static/js/3.982f389b.chunk.js",
     "static/css/main.a258586d.chunk.css",
-    "static/js/main.aafc2274.chunk.js"
+    "static/js/main.a2601abc.chunk.js"
   ]
 }
