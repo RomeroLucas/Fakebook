@@ -18,23 +18,25 @@ import FriendPerfil from './views/friend'
 //render de toda a aplicação
 function App() {
   const userReducer = useSelector(state => state.user)
+  console.log(userReducer)
 
   // roload router-dom error
 
   // Redirect caso o usuario esteja logado via cache
   const history = useHistory()
-  const handleLoad = () => {
+  useEffect(()=> {
     if(userReducer) {
       history.push('/feed')
     }  else {
       history.push('/')
     }
+  }, [])
 
-  }
+  
 
 
   return (
-    <div className="App" onLoad={handleLoad}>
+    <div className="App">
       <Header>
 
       </Header>
