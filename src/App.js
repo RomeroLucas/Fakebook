@@ -18,7 +18,6 @@ import FriendPerfil from './views/friend'
 //render de toda a aplicação
 function App() {
   const userReducer = useSelector(state => state.user)
-  console.log(userReducer)
 
   // roload router-dom error
 
