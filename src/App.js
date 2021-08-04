@@ -1,5 +1,7 @@
 //import de LIBS
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, useHistory, useLocation} from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import { useEffect } from 'react'
 
 //import de COMPONENTES
 import Header from './components/header'
@@ -15,10 +17,24 @@ import FriendPerfil from './views/friend'
 
 //render de toda a aplicação
 function App() {
-    
+  const userReducer = useSelector(state => state.user)
+
+  // roload router-dom error
+
+  // Redirect caso o usuario esteja logado via cache
+  const history = useHistory()
+  const handleLoad = () => {
+    if(userReducer) {
+      history.push('/feed')
+    }  else {
+      history.push('/')
+    }
+
+  }
+
 
   return (
-    <div className="App">
+    <div className="App" onLoad={handleLoad}>
       <Header>
 
       </Header>
