@@ -30,7 +30,11 @@ export default function FormLogin() {
     let handlesubmit = (e) => {
         e.preventDefault()
         axios.get(`${url}/login/email=${dadosLogin.email}/senha=${dadosLogin.senha}`)
-        .then(response => dispatch({type: "VALIDAR", payload: response.data[0]}), dispatch({type: 'FECHAR_FORM'}))
+        .then(response => {
+            dispatch({type: "VALIDAR", payload: response.data[0]})
+            localStorage.setItem('user', JSON.stringify(response.data[0]))
+            dispatch({type: 'FECHAR_FORM'})
+        })
         .then(history.push(`/feed`)) 
     }
 
